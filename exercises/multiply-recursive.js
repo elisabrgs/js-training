@@ -10,8 +10,32 @@
  */
 
 // Your code :
+function multiply(iNum1, iNum2) {
+
+	if (iNum2 < 0) {
+		iNum2 = -iNum2;
+		iNum1 = -iNum1;
+	};
+
+    if (iNum2 > 0) {
+    	return iNum1 + multiply(iNum1, iNum2-1);
+    } else {
+    	return 0
+    }
+
+}
 
 //* Begin of tests
+
+/*let result = 0;
+if (iNum2 > 0) {
+	iNum2--;
+	result = iNum1;
+    return result + multiply(iNum1, iNum2);
+} else {
+	return result
+}*/
+
 const assert = require('assert')
 
 assert.strictEqual(typeof multiply, 'function')

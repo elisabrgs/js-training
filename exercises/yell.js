@@ -6,9 +6,18 @@
  *
  */
 
+ function yell(iStr) {
+ 	return iStr.toUpperCase();
+ }
+
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.deepStrictEqual(yell('aaa'), 'AAA')
+assert.deepStrictEqual(yell('bbb'), 'BBB')
+assert.deepStrictEqual(yell('a a a'), 'A A A')
+
+
+
 // End of tests */

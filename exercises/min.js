@@ -10,6 +10,9 @@
  */
 
 // Your code :
+function min(iNum1, iNum2) {
+	return iNum1 > iNum2 ? iNum2 : iNum1
+};
 
 //* Begin of tests
 const assert = require('assert')

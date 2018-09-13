@@ -8,6 +8,9 @@
  */
 
 // Your code :
+function getLast(iArr) {
+	return iArr[iArr.length - 1]
+}
 
 //* Begin of tests
 const assert = require('assert')

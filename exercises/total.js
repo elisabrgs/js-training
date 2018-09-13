@@ -5,6 +5,14 @@
  * and return the total
  *
  */
+ function total(iArr) {
+
+ 	let sum = 0;
+ 	for (let i=0; i<iArr.length; i++) {
+ 		sum += iArr[i];
+ 	}
+ 	return sum;
+ }
 
 
 //* Begin of tests

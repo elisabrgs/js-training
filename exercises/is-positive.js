@@ -8,6 +8,9 @@
  */
 
 // Your code:
+function isPositive(iNum) {
+	return iNum > 0 ? true: false;
+}
 
 
 //* Begin of tests

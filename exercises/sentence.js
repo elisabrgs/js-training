@@ -5,6 +5,15 @@
  * and return a string of all the element separated by a space
  *
  */
+ function sentence(iArr) {
+
+ 	let str=iArr[0]
+ 	for (let i=1; i<iArr.length; i++) {
+ 		str += ' ' + iArr[i];
+ 	}
+ 	return str
+
+ }
 
 
 //* Begin of tests

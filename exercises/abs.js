@@ -10,6 +10,9 @@
  */
 
 // Your code :
+function abs(iNum) {
+	return iNum < 0 ? -iNum : iNum;
+}
 
 //* Begin of tests
 const assert = require('assert')

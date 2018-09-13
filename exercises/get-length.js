@@ -8,6 +8,9 @@
  */
 
 // Your code :
+function getLength(iArr){
+	return iArr.length
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -7,9 +7,14 @@
  *
  */
 
+ function yell(iStr) {
+ 	return '*' + iStr.toLowerCase() + '*';
+ }
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.deepStrictEqual(yell('AaA'), '*aaa*')
+assert.deepStrictEqual(yell('BBB'), '*bbb*')
+assert.deepStrictEqual(yell('A a A'), '*a a a*')
 // End of tests */

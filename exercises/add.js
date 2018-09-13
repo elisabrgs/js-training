@@ -7,6 +7,9 @@
  */
 
 // Your code :
+function add(iNum1, iNum2) {
+	return iNum1 + iNum2
+}
 
 //* Begin of tests
 const assert = require('assert')

@@ -9,6 +9,28 @@
  */
 
 // Your code :
+function multiply(iNum1, iNum2) {
+
+	let k = 0;
+	let result = 0;
+
+	if (iNum1 > 0) {
+		while (k < iNum1) {
+			k++;
+			result += iNum2;
+		};
+	} else {
+		while (k > iNum1) {
+			k--;
+			result -= iNum2;
+		};
+	};
+	
+
+
+	return result
+
+}
 
 //* Begin of tests
 const assert = require('assert')
